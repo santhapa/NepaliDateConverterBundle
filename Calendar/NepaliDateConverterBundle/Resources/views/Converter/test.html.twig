@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Nepali Date Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <form action="" method="POST">
+        <div id="nepali-to-english">
+            <h3>Convert Nepali to English</h3>
+            <span id="nep-year">
+                <label>Year</label>
+                <select name="nep-year">
+                    {% for i in 2000..2089 %}
+                        <option {% if filters['nep-year'] is defined and filters['nep-year'] == i %}selected='selected'{% endif %}>
+                            {{ i }}
+                        </option>
+                    {% endfor %}                    
+                </select>
+            </span>&emsp; 
+            <span id="nep-month">
+                <label>Month</label>
+                <select name="nep-month">
+                    {% for j in 1..12 %}
+                        <option {% if filters['nep-month'] is defined and filters['nep-month'] == j %}selected='selected'{% endif %}>
+                            {{ j }}
+                        </option>
+                    {% endfor %}                    
+                </select>
+            </span>&emsp;
+            <span id="nep-day">
+                <label>Day</label>
+                <select name="nep-day">
+                    {% for k in 1..32 %}
+                        <option {% if filters['nep-day'] is defined and filters['nep-day'] == k %}selected='selected'{% endif %}>
+                            {{ k }}
+                        </option>
+                    {% endfor %}                    
+                </select>
+            </span>
+            <span>
+                <input type="submit" name="nep-convert" value="Convert">
+            </span>
+            {% if nep_result is defined %}
+                <p style="color:#ff0000">
+                    <b>Converted Result:</b> {{ nep_result }}
+                </p>
+            {% endif %}
+        </div>
+    </form>
+
+    <form action="" method="POST">
+        <div id="english-to-nepali">
+            <h3>Convert English to Nepali</h3>
+            <span id="eng-year">
+                <label>Year</label>
+                <select name="eng-year">
+                    {% for i in 1944..2022 %}
+                        <option {% if filters['eng-year'] is defined and filters['eng-year'] == i %}selected='selected'{% endif %}>
+                            {{ i }}
+                        </option>
+                    {% endfor %}                    
+                </select>
+            </span>&emsp; 
+            <span id="eng-month">
+                <label>Month</label>
+                <select name="eng-month">
+                    {% for j in 1..12 %}
+                        <option {% if filters['eng-month'] is defined and filters['eng-month'] == j %}selected='selected'{% endif %}>
+                            {{ j }}
+                        </option>
+                    {% endfor %}                    
+                </select>
+            </span>&emsp;
+            <span id="eng-day">
+                <label>Day</label>
+                <select name="eng-day">
+                    {% for k in 1..31 %}
+                        <option {% if filters['eng-day'] is defined and filters['eng-day'] == k %}selected='selected'{% endif %}>
+                            {{ k }}
+                        </option>
+                    {% endfor %}                    
+                </select>
+            </span>
+            <span>
+                <input type="submit" name="eng-convert" value="Convert">
+            </span>
+            {% if eng_result is defined %}
+                <p style="color:#ff0000">
+                    <b>Converted Result:</b> {{ eng_result }}
+                </p>
+            {% endif %}
+        </div>
+    </form>
+
+    <div style="font-style: italic">
+        <h4>Static Test Data</h4>
+            <p>Nepali Date (2071-9-17) --> <span style="color:#ff0000">{{ neptest }}</span></p>
+            <p>English Date(2015-1-1) --> <span style="color:#ff0000">{{ engtest }}</span> </p>
+            
+    </div>
+</body>
+</html>

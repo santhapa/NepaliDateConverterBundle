@@ -1,0 +1,3 @@
+testPage:
+    path: converter/test
+    defaults: { _controller: CalendarNepaliDateConverterBundle:Converter:test }

@@ -1,0 +1,9 @@
+services:
+#    calendar_nepali_date_converter.example:
+#        class: Calendar\NepaliDateConverterBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+    date_converter:
+        class: Calendar\NepaliDateConverterBundle\Converter\Calendar
+        arguments: [%converter_nepali_date_format%, %converter_english_date_format%, ]
+        tags:
+            - {name: calendar , alias: calendar_converter}
