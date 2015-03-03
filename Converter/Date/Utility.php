@@ -169,7 +169,7 @@ class Utility{
                         break;
 
                   default:
-                        $res = $date['day'].'-'.$date['num_month'].'-'.$date['year'];
+                        $res = $date['year'].'-'.$date['month'].'-'.$date['day'];
                         break;
             }
 
