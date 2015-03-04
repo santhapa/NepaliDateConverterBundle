@@ -141,7 +141,7 @@ class Utility{
                         break;
 
                   case DateFormat::YYYY_MM_DD:
-                        $res = $date['year'].'-'.$date['month'].'-'.$date['day'];
+                        $res = $date['year'].'-'.$date['num_month'].'-'.$date['day'];
                         break;
 
                   case DateFormat::DD_MMM_YYYY:
@@ -169,7 +169,7 @@ class Utility{
                         break;
 
                   default:
-                        $res = $date['year'].'-'.$date['month'].'-'.$date['day'];
+                        $res = $date['year'].'-'.$date['num_month'].'-'.$date['day'];
                         break;
             }
 
