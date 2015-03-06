@@ -14,7 +14,7 @@ class Calendar
 	private $nf;
 	private $ef;
 
-	public function __construct($nf, $ef)
+	public function __construct($nf='yyyy-mm-dd', $ef='yyyy-mm-dd')
 	{
 		$this->nf = $nf;
 		$this->ef = $ef;
