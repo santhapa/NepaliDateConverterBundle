@@ -6,7 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 use Calendar\NepaliDateConverterBundle\Converter\Calendar;
 
-class ConverterController extends Controller
+class TestController extends Controller
 {
 	public function testAction()
 	{
