@@ -1,5 +1,4 @@
 vendor/*
 composer.lock
-Tests/Fixtures
 Tests/Fixtures/app/cache
 Tests/Fixtures/app/logs
