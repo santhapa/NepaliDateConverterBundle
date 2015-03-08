@@ -11,4 +11,12 @@
             <directory>./Tests/</directory>
         </testsuite>
     </testsuites>
+    <filter>
+        <whitelist>
+            <directory>./Converter</directory>
+        </whitelist>
+    </filter>
+    <php>
+        <server name="KERNEL_DIR" value="./Tests/Fixtures/app" />
+    </php>
 </phpunit>
