@@ -1,9 +1,20 @@
 {
     "name": "calendar/nepalidateconverterbundle",
+    "type": "symfony-bundle",
+    "description": "Nepali to English or English to Nepali Date Converter for Symfony",
+    "keywords": ["date converter", "calendar", "nepali date converter"],
+    "license": "MIT",
+    "authors": [
+        { "name": "santhapa", "email": "san.loggingin@gmail.com" }
+    ],    
+    "require": {
+        "symfony/symfony": "~2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
     "autoload": {
-        "psr-0" : {
-            "Calendar\\NepaliDateConverterBundle" : "src"
-        }
+        "psr-4": { "Calendar\\NepaliDateConverterBundle\\": "" }
     },
     "target-dir": "Calendar/NepaliDateConverterBundle"
 }
