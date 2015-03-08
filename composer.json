@@ -2,7 +2,7 @@
     "name": "calendar/nepalidateconverterbundle",
     "autoload": {
         "psr-0" : {
-            "Calendar\\NepaliDateConverterBundle" : ""
+            "Calendar\\NepaliDateConverterBundle" : "src"
         }
     },
     "target-dir": "Calendar/NepaliDateConverterBundle"
