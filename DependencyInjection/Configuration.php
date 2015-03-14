@@ -1,6 +1,6 @@
 <?php
 
-namespace Calendar\NepaliDateConverterBundle\DependencyInjection;
+namespace SanThapa\NepaliDateConverterBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

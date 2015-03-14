@@ -1,15 +1,15 @@
 <?php
 
-namespace Calendar\NepaliDateConverterBundle\Converter\Date;
+namespace SanThapa\NepaliDateConverterBundle\Converter\Date;
 
-use Calendar\NepaliDateConverterBundle\Converter\Date\DateInterface;
-use Calendar\NepaliDateConverterBundle\Converter\Date\Utility;
+use SanThapa\NepaliDateConverterBundle\Converter\Date\DateInterface;
+use SanThapa\NepaliDateConverterBundle\Converter\Date\Utility;
 
-use Calendar\NepaliDateConverterBundle\Format\Day;
-use Calendar\NepaliDateConverterBundle\Format\Month\English as EnglishFormat;
+use SanThapa\NepaliDateConverterBundle\Format\Day;
+use SanThapa\NepaliDateConverterBundle\Format\Month\English as EnglishFormat;
 
-use Calendar\NepaliDateConverterBundle\Exception\Exception as CalendarException;
-use Calendar\NepaliDateConverterBundle\Exception\Messages as CalendarMessages;
+use SanThapa\NepaliDateConverterBundle\Exception\Exception as CalendarException;
+use SanThapa\NepaliDateConverterBundle\Exception\Messages as CalendarMessages;
 
 class Nepali implements DateInterface{
 

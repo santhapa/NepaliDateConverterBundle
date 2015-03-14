@@ -1,6 +1,6 @@
 <?php
 
-namespace Calendar\NepaliDateConverterBundle\Converter\Date;
+namespace SanThapa\NepaliDateConverterBundle\Converter\Date;
 
 class DateFormat{
 

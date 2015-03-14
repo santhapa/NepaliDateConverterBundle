@@ -1,8 +1,8 @@
 <?php
 
-namespace Calendar\NepaliDateConverterBundle\Tests\Converter\Date;
+namespace SanThapa\NepaliDateConverterBundle\Tests\Converter\Date;
 
-use Calendar\NepaliDateConverterBundle\Converter\Date\Utility;
+use SanThapa\NepaliDateConverterBundle\Converter\Date\Utility;
 
 class UtilityTest extends \PHPUnit_Framework_TestCase
 {

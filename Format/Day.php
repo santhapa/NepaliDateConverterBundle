@@ -1,6 +1,6 @@
 <?php
 
-namespace Calendar\NepaliDateConverterBundle\Format;
+namespace SanThapa\NepaliDateConverterBundle\Format;
 
 class Day{
 

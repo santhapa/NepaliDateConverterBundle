@@ -1,6 +1,6 @@
 <?php
 
-namespace Calendar\NepaliDateConverterBundle\Tests;
+namespace SanThapa\NepaliDateConverterBundle\Tests;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {
@@ -18,6 +18,6 @@ class ServiceTest extends \PHPUnit_Framework_TestCase
     {
         $service = $this->container->get('date_converter');
 
-        $this->assertInstanceOf('Calendar\NepaliDateConverterBundle\Converter\Calendar', $service);
+        $this->assertInstanceOf('SanThapa\NepaliDateConverterBundle\Converter\Calendar', $service);
     }
 }

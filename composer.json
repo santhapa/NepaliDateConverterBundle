@@ -1,5 +1,5 @@
 {
-    "name": "calendar/nepalidateconverterbundle",
+    "name": "santhapa/nepalidateconverterbundle",
     "type": "symfony-bundle",
     "description": "Nepali to English or English to Nepali Date Converter for Symfony",
     "keywords": ["date converter", "calendar", "nepali date converter"],
@@ -14,6 +14,6 @@
         "phpunit/phpunit": "~4.3"
     },
     "autoload": {
-        "psr-4": { "Calendar\\NepaliDateConverterBundle\\": "" }
+        "psr-4": { "SanThapa\\NepaliDateConverterBundle\\": "" }
     }
 }

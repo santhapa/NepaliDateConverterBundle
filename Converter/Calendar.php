@@ -1,9 +1,9 @@
 <?php
 
-namespace Calendar\NepaliDateConverterBundle\Converter;
+namespace SanThapa\NepaliDateConverterBundle\Converter;
 
-use Calendar\NepaliDateConverterBundle\Converter\Date\English as EnglishConverter;
-use Calendar\NepaliDateConverterBundle\Converter\Date\Nepali as NepaliConverter;
+use SanThapa\NepaliDateConverterBundle\Converter\Date\English as EnglishConverter;
+use SanThapa\NepaliDateConverterBundle\Converter\Date\Nepali as NepaliConverter;
 
 
 /**

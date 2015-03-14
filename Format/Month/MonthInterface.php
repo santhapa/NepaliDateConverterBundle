@@ -1,6 +1,6 @@
 <?php
 
-namespace Calendar\NepaliDateConverterBundle\Format\Month;
+namespace SanThapa\NepaliDateConverterBundle\Format\Month;
 
 interface MonthInterface
 {

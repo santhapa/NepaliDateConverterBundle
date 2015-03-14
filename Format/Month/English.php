@@ -1,8 +1,8 @@
 <?php
 
-namespace Calendar\NepaliDateConverterBundle\Format\Month;
+namespace SanThapa\NepaliDateConverterBundle\Format\Month;
 
-use Calendar\NepaliDateConverterBundle\Format\Month\MonthInterface;
+use SanThapa\NepaliDateConverterBundle\Format\Month\MonthInterface;
 
 class English implements MonthInterface{
 

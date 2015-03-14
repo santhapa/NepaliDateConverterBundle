@@ -1,2 +1,2 @@
 imports:                                                                                                                                                                                                           
-    - { resource: @CalendarNepaliDateConverterBundle/Resources/config/services.yml }
+    - { resource: @SanThapaNepaliDateConverterBundle/Resources/config/services.yml }

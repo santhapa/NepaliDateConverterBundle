@@ -1,10 +1,10 @@
 <?php
 
-namespace Calendar\NepaliDateConverterBundle\Controller;
+namespace SanThapa\NepaliDateConverterBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-use Calendar\NepaliDateConverterBundle\Converter\Calendar;
+use SanThapa\NepaliDateConverterBundle\Converter\Calendar;
 
 class TestController extends Controller
 {
@@ -40,6 +40,6 @@ class TestController extends Controller
 		$data['neptest'] = $converter->nepaliToEnglish(2071, 9, 17,'mmmm-dd-yyyy');
 		$data['engtest'] = $converter->englishToNepali(2015, 1, 1, 'mmmm-dd-yyyy');
 
-		return $this->render('CalendarNepaliDateConverterBundle::Converter/test.html.twig', $data);
+		return $this->render('SanThapaNepaliDateConverterBundle::Converter/test.html.twig', $data);
 	}
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Calendar\NepaliDateConverterBundle\Converter\Date;
+namespace SanThapa\NepaliDateConverterBundle\Converter\Date;
 
-use Calendar\NepaliDateConverterBundle\Converter\Date\DateFormat;
+use SanThapa\NepaliDateConverterBundle\Converter\Date\DateFormat;
 
 /*
 *Contains utility function for the date conversion

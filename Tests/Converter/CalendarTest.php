@@ -1,10 +1,10 @@
 <?php
 
-namespace Calendar\NepaliDateConverterBundle\Tests\Converter;
+namespace SanThapa\NepaliDateConverterBundle\Tests\Converter;
 
-use Calendar\NepaliDateConverterBundle\Converter\Calendar;
+use SanThapa\NepaliDateConverterBundle\Converter\Calendar;
 
-class CalculatorTest extends \PHPUnit_Framework_TestCase
+class CalendarTest extends \PHPUnit_Framework_TestCase
 {
     public function testNepaliToEnglish()
     {

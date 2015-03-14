@@ -1,6 +1,6 @@
 <?php
 
-namespace Calendar\NepaliDateConverterBundle\Exception;
+namespace SanThapa\NepaliDateConverterBundle\Exception;
 
 /*
 *Exception Messages

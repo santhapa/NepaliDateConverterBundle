@@ -9,7 +9,7 @@ class AppKernel extends Kernel
     {   
         return array(
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
-            new Calendar\NepaliDateConverterBundle\CalendarNepaliDateConverterBundle(),
+            new SanThapa\NepaliDateConverterBundle\SanThapaNepaliDateConverterBundle(),
         );
     }   
 

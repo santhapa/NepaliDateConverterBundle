@@ -1,2 +1,2 @@
 converter_bundle:                                                                                                                                                                                                    
-    resource: "@CalendarNepaliDateConverterBundle/Resources/config/routing.yml"
+    resource: "@SanThapaNepaliDateConverterBundle/Resources/config/routing.yml"
