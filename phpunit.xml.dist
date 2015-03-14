@@ -8,7 +8,7 @@
     bootstrap="./Tests/Fixtures/app/autoload.php">
     <testsuites>
         <testsuite name="NepaliDateConverterBundle Test Suite">
-            <directory>./Tests/</directory>
+            <directory>./Tests/test/</directory>
         </testsuite>
     </testsuites>
     <filter>
