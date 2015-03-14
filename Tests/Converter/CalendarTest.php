@@ -8,7 +8,7 @@ class CalendarTest extends \PHPUnit_Framework_TestCase
 {
     public function testNepaliToEnglish()
     {
-        $converter = new Calendars();
+        $converter = new Calendar();
         $result = $converter->nepaliToEnglish(2071, 9, 17);
 
         $this->assertEquals('2015-01-01', $result);
