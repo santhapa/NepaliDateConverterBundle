@@ -5,4 +5,4 @@ This bundle is the restructuring of the Nepali Date Convert at https://github.co
 
 Somehow, I have tried to add few features such as output the results with predefined format. You can also format the result yourself from the array values like in the original code by Aman Tuladhar.
 
-I have also refered https://github.com/FiveDotsSoft/Nepali-Date-Converter while creating this bundle.
+I have also refered https://github.com/FiveDotsSoft/Nepali-Date-Converter while creating this bundle. Thank You!
